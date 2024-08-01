@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSUniCourses Overview</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.9/css/unicons.css">
+    <link rel="stylesheet" href="../css/Course1.css">
+</head>
+<body>
+<header>
+    <div class="inner">
+        <div class="logo"><img src="../jpg/CS_Uni_Course.jpg" alt="Logo"></div>
+        <div class="burger"></div>
+        <nav>
+            <a href="Landing_Page.html">Home</a>
+            <a href="Courses.html">Courses</a>
+            <a class="active">Course Overview</a>
+            <a href="About_Us.html">About Us</a>
+        </nav>
+        <a href="../php/Logout.php" class="login">Logout</a>
+    </div>
+</header>
+
+<div id="stars"></div>
+<div id="stars2"></div>
+<div id="stars3"></div>
+
+
+<div id="video-container" class="video-container">
+    <iframe id="video" width="1920" height="480" src="https://www.youtube.com/embed/lFjMkUmp_lk?si=QwjVNyrLq2uKxdmr" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="tabs">
+    <button class="tablink" onclick="openTab(event, 'CourseContent')">Course Content</button>
+    <button class="tablink" onclick="openTab(event, 'Overview')">Overview</button>
+    <button class="tablink" onclick="openTab(event, 'Reviews')">Reviews</button>
+</div>
+
+<div id="CourseContent" class="tabcontent">
+    <div class="collapsible-container">
+        <button type="button" class="collapsible">Myanmar HTML Beginner</button>
+        <div class="content">
+            <ul>
+                <li data-video-id="lFjMkUmp_lk"><input type="checkbox"> Episode 1 - What is a website?</li>
+                <li data-video-id="toToYvjScho"><input type="checkbox"> Episode 2 - HTML Document</li>
+                <li data-video-id="UOQaUrRQeDo"><input type="checkbox"> Episode 3 - Create HTML Document</li>
+                <li data-video-id="ux2lp0OfkbU"><input type="checkbox"> Episode 4 - Most used HTML tags</li>
+                <li data-video-id="47K23Bo87mk"><input type="checkbox"> Episode 5 - Most used HTML tags</li>
+                <li data-video-id="fJRCg_nv9W4"><input type="checkbox"> Episode 6 - Most used HTML tags</li>
+                <li data-video-id="sW372LA4KPw"><input type="checkbox"> Episode 7 - Most used HTML tags</li>
+                <li data-video-id="Bcf0p_eG3k0"><input type="checkbox"> Episode 8 - Most used HTML tags</li>
+                <li data-video-id="IfcOMyt5fM0"><input type="checkbox"> Episode 9 - Most used HTML tags</li>
+                <li data-video-id="0sU3Tjlb13U"><input type="checkbox"> Episode 10 - Most used HTML tags</li>
+                <li data-video-id="O-3SXC5votI"><input type="checkbox"> Episode 11 - Most used HTML tags</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id="Overview" class="tabcontent">
+    <h1 class="title">
+        Myanmar HTML Beginner by MSquare Programming
+    </h1>
+    <hr>
+    <div class="info">
+        <div>Skill level: Beginner Level</div>
+        <div>Students: 229,333</div>
+        <div>Lectures: 11</div>
+        <div>Languages: Myanmar</div>
+        <div>Video: About an hour</div>
+    </div>
+    <hr>
+    <div class="update">Last updated: April 2019</div>
+    <hr>
+    <div class="captions">Captions: English [Auto]</div>
+</div>
+
+<div id="Reviews" class="tabcontent">
+    <h1 class="title">Student Feedback</h1>
+    <hr>
+    <p class="padding">Course Rating: 4.2</p>
+    <hr>
+    <div class="rating-container">
+        <div class="rating-stars">
+            <div class="rating-bar">
+                <div class="rating-fill five-star"></div>
+            </div>
+            ★★★★★ 38%
+        </div>
+
+        <div class="rating-stars">
+        <div class="rating-bar">
+            <div class="rating-fill four-star"></div>
+        </div>
+            ★★★★☆ 37%
+        </div>
+
+        <div class="rating-stars">
+            <div class="rating-bar">
+                <div class="rating-fill three-star"></div>
+            </div>
+            ★★★☆☆ 20%
+        </div>
+
+        <div class="rating-stars">
+        <div class="rating-bar">
+            <div class="rating-fill two-star"></div>
+        </div>
+            ★★☆☆☆ 3%
+        </div>
+
+        <div class="rating-stars">
+        <div class="rating-bar">
+            <div class="rating-fill one-star"></div>
+        </div>
+            ★☆☆☆☆ 2%
+        </div>
+
+    </div>
+</div>
+
+<div class="fade-in-section-container">
+    <div class="fade-in-section">
+        <div>
+            <div class="text-content">
+                <h1>Learn from anywhere,anytime online<br>Becoming a Software Engineer</h1>
+                <p>Software engineering encompasses essential skills for developing robust applications. Our University offers courses covering programming languages, data structures, algorithms, and software design.<br>Learn at your own pace and gain practical knowledge in this dynamic field.</p>
+            </div>
+        </div>
+        <div class="button-container ">
+            <button class="cta-button" onclick="location.href='Courses.html'">Get Started Now</button>
+        </div>
+    </div>
+</div>
+
+<section class="additional-section">
+    <div class="container">
+        <h2>More About Our Services</h2>
+        <p>Welcome to our Computer Science hub! At our university, we’re passionate about shaping the future through code, algorithms, and innovation. Whether you’re passionate about machine learning, web development, or cybersecurity, we’ve got you covered! Our programs blend theoretical foundations with hands-on experience, equipping students with the skills needed to tackle real-world challenges. </p>
+        <p>So, whether you’re unraveling the mysteries of neural networks, crafting elegant web designs with HTML and CSS, or safeguarding digital systems, our CS department is your launchpad To Success. Join us on this exciting journey! let’s shape the future! 🚀</p>
+    </div>
+</section>
+
+<script src=../js/Course1.js defer></script>
+</body>
+</html>
